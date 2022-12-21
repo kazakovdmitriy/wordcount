@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/kazakovdmitriy/wordcount/wordcount"
+	"github.com/kazakovdmitriy/wordcount/actions"
 	"os"
 )
 
 func main() {
 	line, _ := readInput()
-	words, _ := wordcount.WordCount(line)
+	words, _ := actions.WordCount(line)
 	fmt.Println(words)
 }
 

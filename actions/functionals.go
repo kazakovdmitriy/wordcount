@@ -1,4 +1,4 @@
-package wordcount
+package actions
 
 import (
 	"strings"
